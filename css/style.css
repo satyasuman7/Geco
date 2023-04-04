@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+/* p{
+    text-align: justify;
+} */
+/***********************************    NAVBAR SECTION STARTS   ******************************************/
+#menubar_geco{
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+    background-image: url(../images/header_bg.jpg);
+}
+
+#navbarNavDropdown{
+    font-size: 1.3rem;
+}
+    @media screen and (max-width: 992px) {
+        #navbarNavDropdown {font-size: 1.1rem;}
+    }
+.navbar-brand{
+    width: 60%;
+}
+    .logo{
+        width: 200px;
+    }
+.nav-item{
+    margin-left: 1.3rem;
+}
+    @media screen and (max-width:992px){
+        .nav-item{
+            margin-left: 0rem;
+        }
+    }
+
+    
+/***********************************    NAVBAR SECTION ENDS   ******************************************/
+
+/***********************************    CAROUSEL SECTION STARTS   ******************************************/
+.carousel-caption{
+    margin: 7rem 0 7rem 0;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+}
+    @media screen and (max-width : 875px){
+        .carousel-caption{
+            margin: 0;
+        }
+    }
+.carousel-caption h1{
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+    @media screen and (max-width:1162px){
+        .carousel-caption h1{font-size: 6rem;}
+    }
+    @media screen and (max-width:996px){
+        .carousel-caption h1{font-size: 4.5rem;}
+    }
+    @media screen and (max-width:747px){
+        .carousel-caption h1{font-size: 3rem;}
+    }
+    @media screen and (max-width:498px){
+            .carousel-caption h1{font-size : 2rem;}
+        }
+    
+    .carousel-caption span{
+        color: #F4C028;
+    }
+    
+    .carousel-caption p{
+        font-size: 18px;
+        text-align: center;
+    }
+        @media screen and (max-width:1162px){
+            .carousel-caption p{font-size : 15px;}
+        }
+        @media screen and (max-width:996px){
+            .carousel-caption p{font-size : 13px;}
+        }
+        @media screen and (max-width:747px){
+            .carousel-caption p{font-size : 10px;}
+        }
+        @media screen and (max-width:498px){
+            .carousel-caption p{font-size : 7px;}
+        }
+    .carousel-caption button{
+        text-transform: uppercase;
+    }
+        .carousel-caption button:hover{
+            color: aliceblue;
+            transition: .5s;
+            background-color: #F4C028;
+        }
+        @media screen and (max-width:1162px){
+            .carousel-caption button{margin: 5px 0; padding: 6px 14px; font-size: 15px;}
+        }
+        @media screen and (max-width:996px){
+            .carousel-caption button{margin: 4px 0; padding: 5px 12px; font-size: 13px;}
+        }
+        @media screen and (max-width:747px){
+            .carousel-caption button{margin: 3px 0; padding: 4px 10px; font-size: 10px;}
+        }
+        @media screen and (max-width:498px){
+            .carousel-caption button{margin: 2px 0; padding: 3px 8px; font-size: 8px;}
+        }
+/***********************************    CAROUSEL SECTION ENDS   ******************************************/
+
+/***********************************    BRANDS SECTION STARTS   ******************************************/
+#brand-logo{
+    text-align: center;
+}
+.brand_logos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/***********************************    BRANDS SECTION ENDS   ******************************************/
+
+/***********************************    RECENT GAMES SECTION STARTS   ******************************************/
+#recentgames{
+    font-family: 'Quantico', sans-serif;
+}
+    .recentgames-1{
+        padding-top:70px;
+        padding-bottom:70px;
+        text-align: center;
+    }
+        .recentgames-1 h3{
+            font-size: 2.8rem;
+            text-transform: uppercase;
+            font-weight: bolder;
+            color: rgb(35, 36, 37);
+        }
+          .recentgames-1 h3 span{
+            color: #F4C028;
+          }
+        .recentgames-1 p{
+          color: grey;
+          font-size: 15px;
+        }  
+.recentgames-category{
+    border-radius: 20px;
+    background-color:rgb(35, 36, 37);
+}
+.recentgames-icon{
+  padding-top: 20px;
+}
+
+.recentgames-content h4{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white;
+}  
+    .recentgames-content h4:hover{
+        color: #F4C028;
+        cursor: pointer;
+    }
+
+.recentgames-content p{
+    padding: 34px 22px 20px;
+    position: relative;
+    font-size: 16px;
+}
+
+.recentgames-span {
+  color: #F4C028;
+  padding-bottom: 20px;
+}
+/************************************    RECENT GAMES SECTION ENDS   ******************************************/
+
+/************************************    HEADER SECTION STARTS   ******************************************/
+.page-header {
+    background-size: cover;
+    font-family: 'Quantico', sans-serif;
+}
+.page-header .container {
+    position: relative;
+    padding: 45px 0 45px 35px;
+    border-left: 15px solid  #F4C028;
+}
+
+.header_head{
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+    @media screen and (max-width:420px){
+        .header_head{font-size : 3rem;}
+    }
+
+.breadcrumb li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.breadcrumb li{
+    color: #F4C028;
+    font-size: 18px;
+}
+/************************************    HEADER SECTION ENDS   ******************************************/
+
+/************************************    CONTACT SECTION STARTS   ******************************************/
+#contact{
+    font-family: 'Quantico', sans-serif;
+    padding-bottom: 20px;
+}
+.contact-icon{
+    border: 1px solid #F4C028;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+}
+    .contact-icon-text{
+        font-weight: 900;
+    }
+
+.msg_btn button{
+    color: black;
+}
+    .msg_btn button:hover{
+        color: aliceblue;
+    }
+/************************************    CONTACT SECTION ENDS   ******************************************/
+
+/***************************************    SERVICES SECTION STARTS   ******************************************/
+#services{
+    font-family: 'Quantico', sans-serif;
+    background-color:rgb(35, 36, 37) ;
+}
+    .services-1{
+        padding-top:70px;
+        padding-bottom:70px;
+    }
+        .services-1 h1{
+            text-align: center;
+            font-size: 4.8rem;
+            text-transform: uppercase;
+            font-weight: bolder;
+            color: white;
+        }
+
+.services-category{
+    border-radius: 20px;
+    background-color:white;
+}
+.services-icon{
+border: 1px solid #F4C028;
+border-radius: 45px;
+width: 135px;
+height: 135px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+font-size: 4rem;
+}
+    .services-icon:hover{
+        background-color: #F4C028;
+        color: aliceblue;
+    }
+
+.services-content h3{
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 1.1rem;
+}  
+    .services-content h3:hover{
+        color: #F4C028;
+        cursor: pointer;
+    }
+
+.services-content p{
+    color:gray;
+    padding: 34px 22px 20px;
+    position: relative;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.readmore-button a:hover{
+color: white;
+}
+    
+/****************************************    SERVICES SECTION ENDS   ******************************************/
+
+/************************************    ESPORTS,GAMESTREAM, SERVICES SECTION STARTS   *************************************/
+#esports, #gamestream, #os, #cg, #bm, #mpd{
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    font-family: 'Quantico', sans-serif;
+    text-align: justify;
+}
+
+.esports_container h3, .gamestream-container h3, .os-container h3, .cg_container h3, .bm_container h3, .mpd-container h3{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    color: #F4C028;
+    margin-bottom: 2.8rem;
+}
+
+.esports-content h5, .cg_content h5, .mpd-content h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.esports-content p, ul, .gamestream-content p, .os-content p, .cg_content p, .bm_content p, .mpd-content p,ol{
+    font-size: 22px;
+}
+
+.note{
+    color: #F4C028;
+    font-weight: 700;
+}
+
+.gamestream-photo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+    @media screen and (max-width:1024px){
+        .gamestream-photo img{width: 100%;}
+    }
+    .gamestream-gear{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+        .gamestream-gear img, .cg_img img, .bm_img img{
+            width: 100%;
+            height: 100%;
+        }
+        .mpd-img{
+            display: flex;
+            justify-content: center;
+        }
+            .mpd-img img{
+                width: 50%;
+            }
+        @media screen and (max-width:768px) {
+            .item-2{
+                order: -1;
+            }
+        }
+
+.os-content table{
+    font-size: 22px;
+}
+
+#cloudservices-logo{
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+}
+    .cgs-head{
+        color:#F4C028;
+        font-size: 3rem;
+    }
+    .cloud-services div>img{
+        width: 120px;
+        height: 120px;
+    }
+
+/***********************************    ESPORTS,GAMESTREAM SERVICES SECTION ENDS   ************************************/
+
+
+/****************************************    ABOUT SECTION STARTS   ******************************************/
+#about{
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    font-family: 'Quantico', sans-serif;
+}
+
+.about_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_content h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+    .about_content h1 span{
+        color: #F4C028;
+    }
+
+.about_content p{
+    color: #6C6C6C;
+    font-size: 18px;
+}    
+
+.about_content h5{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #F4C028;
+}
+
+.about_content a:hover{
+    color: white;
+}
+/****************************************    ABOUT SECTION ENDS   ******************************************/
+
+/***********************************    FOOTER SECTION STARTS   ******************************************/
+#footer{
+    color: azure;
+    font-family: 'Quantico', sans-serif;
+    background-position: center;
+    background-image: url(../images/s_footer_bg.jpg);
+}
+
+@media screen and (max-width : 767px) {
+    .footer_address{
+        text-align: center;
+    }
+}
+.footer_address h5{
+    font-weight: 700;
+}
+.footerlogo{
+    width: 120px;
+    margin-bottom: 25px;
+}
+.company-address{
+    color: #6C6C6C;
+}
+.footer_address p a{
+    font-size: .9rem;
+    text-decoration: none;
+    color: #6C6C6C;
+}
+    .footer_address p a:hover{
+        color: #F4C028;
+        margin-left: 5px;
+        transition: .5s;
+    }
+    .footer_address p i{
+        margin-right: 7px;
+    }
+
+.footer-copyright{
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #6C6C6C;
+}
+    .footer-copyright span{
+        color: #F4C028;
+    }
+
+.follow-icon>span:hover{
+    color: #F4C028;
+    cursor: pointer;
+}
+/***********************************    FOOTER SECTION ENDS   ******************************************/
